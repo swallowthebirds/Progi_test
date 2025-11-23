@@ -29,11 +29,11 @@ class AssociationFeeCalculator implements FeeCalculatorInterface {
         switch (true) {
             case ($basePrice > 3000):
                 return 20;
-            case ($basePrice > 1000 && $basePrice < 3000):
+            case ($basePrice >= 1000 && $basePrice <= 3000):
                 return 15;
-            case ($basePrice > 500 && $basePrice < 1000):
+            case ($basePrice >= 500 && $basePrice < 1000):
                 return 10;
-            case ($basePrice > 1 && $basePrice < 500):
+            case ($basePrice >= 1 && $basePrice < 500):
                 return 5;
             default:
                 return 0;
