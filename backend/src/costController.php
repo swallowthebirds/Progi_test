@@ -21,7 +21,7 @@ function calculateCost() {
 
     // All fees for frontend
     $fees = [
-        ['name' => 'Basic fees', 'amount' => $calculatedFees['basicFee']],
+        ['name' => 'Basic fees', 'amount' =>  $basePrice ? $calculatedFees['basicFee'] : 0.00],
         ['name' => 'Seller\'s specific charges', 'amount' => $calculatedFees['sellerFee']],
         ['name' => 'Additional association charges', 'amount' => $calculatedFees['associationFee']],
         ['name' => 'Warehousing fees', 'amount' => 100.0],
