@@ -1,7 +1,3 @@
 <template>
-  <VehicleForm />
+  <router-view />
 </template>
-
-<script setup>
-import VehicleForm from './components/VehicleForm.vue'
-</script>

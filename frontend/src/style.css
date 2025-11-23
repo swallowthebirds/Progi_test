@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #1c1c1c;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -19,6 +19,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  color: #b5b5b5;
 }
 
 h1 {
@@ -32,6 +33,22 @@ h1 {
   margin: 0 auto;
   padding: 2rem;
 }
+
+.welcome {
+  text-align: center;
+  margin-top: 50px;
+}
+
+button {
+  padding: 1em 2em;
+  font-size: 1.2em;
+  border-radius: 12px;
+  border-color: #b5b5b5;
+  cursor: pointer;
+  background-color: #242424;
+  color: #b5b5b5;
+}
+
 .vehicle-cost-calculator {
   max-width: 500px;
   margin: 2rem auto;
@@ -101,6 +118,7 @@ p {
 }
 
 p:last-of-type {
+  font-weight: bolder;
   font-size: 1.3rem;
   color: #0078d7;
 }
