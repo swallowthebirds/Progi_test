@@ -31,4 +31,3 @@ import { useVehicleForm } from './vehicleFormLogic.js'
 
 const { basePrice, vehicleType, fees, totalCost } = useVehicleForm()
 </script>
-
