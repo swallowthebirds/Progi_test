@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * costController.php
+ *
+ * This file handles the calculation of vehicle costs.
+ * It receives JSON input via POST.
+ * 
+ */
+
 require_once __DIR__ . '/VehicleFees.php';
 
 function calculateCost() {
